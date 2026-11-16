@@ -1,0 +1,15 @@
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#0f1b3d,#2b1b6b);font-family:system-ui,sans-serif}
+.card{background:#fff;width:92%;max-width:480px;padding:24px;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.4)}
+h1{margin:0 0 4px;color:#4b2fd0;text-align:center}
+#progress{text-align:center;color:#666;margin-bottom:16px;font-size:14px}
+h2{font-size:18px;margin:0 0 14px}
+.option{display:block;width:100%;text-align:left;padding:12px;margin:8px 0;border:2px solid #ddd;border-radius:10px;background:#fafafa;cursor:pointer;font-size:15px}
+.option:hover{border-color:#4b2fd0}
+.option.selected{border-color:#4b2fd0;background:#ece8ff}
+.option.correct{border-color:#1a9d4a;background:#dff6e6}
+.option.wrong{border-color:#d33;background:#fde3e3}
+#submit{width:100%;margin-top:12px;padding:12px;border:0;border-radius:10px;background:#4b2fd0;color:#fff;font-size:16px;cursor:pointer}
+#submit:disabled{background:#aaa;cursor:not-allowed}
+#result{text-align:center}
+#result h2{font-size:24px}
